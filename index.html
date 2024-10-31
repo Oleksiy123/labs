@@ -6,10 +6,11 @@
     <meta name="description" content="Ця сторінка містить інформацію про автора">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Габрись Олексій ІС-23 лаб.1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-
-    <h2>Габрись Олексій Сергійович</h2>
+    <h2 id="author">Габрись Олексій Сергійович</h2>
     <p>Місце народження: 16 серпня, 2004 року, м. Київ.</p>
     <p>Освіта: Гімназія №283, м. Київ.</p>
     <p style="margin-left: 50px;">НТУУ "КПІ", м. Київ</p>
@@ -18,7 +19,7 @@
     <ul>
         <li>Читання книг</li>
         <li>Автомобілі</li>
-        <li>Аніме</li>
+        <li id="target8">Аніме</li>
     </ul>
 
     <p>Улюблені книги:</p>
@@ -37,8 +38,15 @@
     <p>Це місто вразило мене своєю історією, архітектурою та культурою.</p>
 
     <a href="https://uk.wikipedia.org/wiki/%D0%9C%D1%8E%D0%BD%D1%85%D0%B5%D0%BD" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/M%C3%BCnchen_Panorama.JPG/1280px-M%C3%BCnchen_Panorama.JPG" alt="Мюнхен" width="500">
+        <img id="myImage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/M%C3%BCnchen_Panorama.JPG/1280px-M%C3%BCnchen_Panorama.JPG" alt="Мюнхен" width="500">
     </a>
 
+    <!-- Додаємо кнопки -->
+    <div>
+        <button id="addButton">Додати</button>
+        <button id="increaseButton">Збільшити</button>
+        <button id="decreaseButton">Зменшити</button>
+        <button id="removeButton">Видалити</button>
+    </div>
 </body>
 </html>

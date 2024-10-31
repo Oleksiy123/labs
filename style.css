@@ -1,0 +1,15 @@
+.highlight-bg {
+    background-color: yellow; /* Зміна кольору фону */
+}
+
+.highlight-text {
+    color: red; /* Зміна кольору тексту */
+}
+
+.alternate-bg {
+    background-color: lightblue; /* Зміна кольору фону для дев'ятого елемента */
+}
+
+.alternate-text {
+    color: green; /* Зміна кольору тексту для дев'ятого елемента */
+}
